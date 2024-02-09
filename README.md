@@ -1,8 +1,9 @@
 # pal_rcon
 
 Palworld 用の Rcon クライアントです。
->[!WARNING]
->サーバー側の実装の問題によりちゃんと動かないことがあります。
+
+> [!WARNING]
+> サーバー側の実装の問題によりちゃんと動かないことがあります。
 
 ### 既知の問題
 
@@ -39,6 +40,10 @@ Palworld 用の Rcon クライアントです。
   マルチバイト文字を渡すと UnicodeEncodeError となるので注意してください。
 
 ### 使い方
+
+```
+pip install pal_rcon
+```
 
 #### Sync
 

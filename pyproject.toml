@@ -9,6 +9,7 @@ requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
 dynamic = ["version"]
+urls = {"homepage" = "https://github.com/Charahiro-tan/pal_rcon"}
 classifiers = [
     "License :: OSI Approved :: MIT License",
     "Natural Language :: Japanese",
