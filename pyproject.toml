@@ -1,0 +1,29 @@
+[project]
+name = "pal_rcon"
+description = "Rcon client dedicated to Palworld that supports both sync and async"
+authors = [
+    {name = "Charahiro-tan", email = "charahiro.tan@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+dynamic = ["version"]
+
+[tool.pdm.version]
+source = "file"
+path = "src/pal_rcon/__init__.py"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.scripts]
+cli = {call = "src.pal_rcon.cli:main"}
+
+[tool.ruff]
+exclude = ["__init__.py"]
