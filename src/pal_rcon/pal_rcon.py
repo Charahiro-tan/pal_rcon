@@ -53,7 +53,7 @@ class Rcon:
         logger.debug(
             f"Sending message: packet_id={command.packet_id}, "
             + f"packet_type={command.packet_type}, "
-            + f"message={command.message if command.message != self.password else '**PW**'}",
+            + f"message={command.message if command.message != self.password else '**Password**'}",
         )
         if self._sock is None:
             raise ConnectionError("Not connected to the server")
