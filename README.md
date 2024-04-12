@@ -3,7 +3,9 @@
 Palworld 用の Rcon クライアントです。
 
 > [!WARNING]
-> サーバー側の実装の問題によりちゃんと動かないことがあります。
+> サーバー側の実装の問題によりちゃんと動かないことがあります。  
+> もうRCONは捨てられたようです。APIを使用しましょう。  
+> → https://github.com/Charahiro-tan/pal_api
 
 ### 既知の問題
 
